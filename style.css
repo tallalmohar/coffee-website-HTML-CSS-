@@ -25,3 +25,16 @@ body{
     bottom: -1px;
     margin-right: 5px;
 }
+
+/* Body CSS */
+
+.body-container{
+    display: grid;
+    grid-template-areas:
+            "order-box payment-box"
+             "total-payment-box total-payment-box";
+    row-gap: 30px;
+    column-gap: 30px;
+    width: 100%;
+
+}
