@@ -50,7 +50,7 @@ body{
      font-size: 1em;
      padding: 20px;
      padding-top: 40px;
-     padding-bottom: 15px;
+     padding-bottom: 5px;
      color: #885a2d;
  }
 
@@ -61,7 +61,7 @@ body{
 
 .order-list{
     display: grid;
-    grid-template-columns: .5fr 4fr .5fr;
+    grid-template-columns: 50px 4fr .5fr;
     padding: 20px;
     font-weight: bold;
     border-bottom: #DDB892 2px solid;
@@ -74,11 +74,16 @@ body{
 .mod-items{
     list-style-type: none;
     font-weight: lighter;
+    width: 100px;
     color: #B08968;
     font-size: 15px;
-    width: 100px;
+    width: 200px;
     position: relative;
-    left: 106px;
+    left: 45px;
     margin: 5px;
+
 }
 
+.order-list:last-child{
+    border-bottom: 0px;
+}
