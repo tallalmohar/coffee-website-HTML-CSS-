@@ -130,7 +130,7 @@ body{
     color: #885a2d;
     font-size: 11px;
     position: absolute;
-    left: 660px;
+    left: 670px;
     top: 175px;
     padding: 0 2px;
 }
@@ -167,7 +167,7 @@ body{
     color: #885a2d;
     font-size: 11px;
     position: absolute;
-    left: 660px;
+    left: 670px;
     top: 336px;
     padding: 0 2px;
 }
@@ -188,7 +188,49 @@ body{
     color: #885a2d;
     font-size: 11px;
     position: absolute;
-    left: 660px;
+    left: 670px;
     top: 382px;
     padding: 0 2px;
+}
+/* total payment CSS */
+
+.total-payment-box{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+}
+
+.total-box{
+    width: 50%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.total-box td{
+    padding: 15px;
+}
+
+.total-box .label{
+    padding-left: 300px;
+}
+
+.example-group {
+    position: relative;
+    display: inline-block;
+}
+
+.final-input-label-box {
+    background-color: #deb993;
+    border: none;
+    padding: 8px;
+    border-radius: 20px;
+    width: 90%;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    left: 50px;
 }
